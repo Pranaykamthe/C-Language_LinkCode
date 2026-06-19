@@ -47,7 +47,7 @@ void view_emp()
 void update_emp()
 {
     int id;
-    printf("enter enmpid to update details \n");
+    printf("enter empid to update details \n");
     scanf("%d",&id);
     for(int i=0; i<count; i++)
     {
@@ -76,7 +76,7 @@ void update_emp()
 void delete_emp()
 {
     int id;
-    printf("enter enmpid to delete details \n");
+    printf("enter empid to delete details \n");
     scanf("%d",&id);
     for(int i=0; i<count; i++)
     {
